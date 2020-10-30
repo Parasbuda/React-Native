@@ -6,12 +6,23 @@ const HomeScreen = (props) => {
     <View>
       <Text style={styles.text}>Hello World!!! </Text>
       <Button
-        onPress={() =>props.navigation.navigate('Component') }
+        style={styles.button}
+        onPress={() => props.navigation.navigate("Component")}
         title="Go To the Component Screen"
       />
-      <TouchableOpacity onPress={()=>props.navigation.navigate('List')}>
+      {/* <TouchableOpacity onPress={()=>props.navigation.navigate('List')}>
         <Text>Go to List </Text>
-      </TouchableOpacity>
+      </TouchableOpacity> */}
+      <Button
+        style={styles.button}
+        title="Go to List"
+        onPress={() => props.navigation.navigate("List")}
+      />
+      <Button
+        style={styles.button}
+        onPress={() => props.navigation.navigate("Image")}
+        title="Go To Image"
+      />
     </View>
   );
 };
@@ -19,6 +30,9 @@ const HomeScreen = (props) => {
 const styles = StyleSheet.create({
   text: {
     fontSize: 30,
+  },
+  button:{
+    marginVertical: 50,
   },
 });
 
