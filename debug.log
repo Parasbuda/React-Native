@@ -3,3 +3,6 @@
 [1023/084404.885:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
 [1023/192611.858:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
 [1024/101828.127:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1103/181553.405:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1103/183951.064:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1103/185406.158:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\Paras Sarkaar\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\bee3c8b3-4513-43a8-9cab-e6e0f6dbb281: The system cannot find the path specified. (0x3)
